@@ -34,7 +34,7 @@
   color: black;
 }
 
-.button.primary-button::after, .button.secondary-button::after{
+.button.primary-button:: after, .button.secondary-button::after{
   position: absolute;
   top: -2px; left:-2px;
   background: var(--gradient-color);
@@ -54,4 +54,14 @@
   background: var(--gradient-color);
   color: whitesmoke;
   box-shadow: var(--box-shadow);
+}
+
+p.para{
+  color:var(--text-color);
+  font:normal 500 16px/ 25px var(--roboto);
+}
+
+
+.font-roboto{
+  font-family: var(--roboto);
 }
