@@ -3,7 +3,7 @@
 /* Global Classes */
 
 .title-text{
-  font:normal bold 50px/72px var(-roboto);
+  font:normal bold 50px/72px var(--roboto);
 }
 
 .text-uppercase{
@@ -64,4 +64,18 @@ p.para{
 
 .font-roboto{
   font-family: var(--roboto);
+}
+
+
+button:focus.
+button:active
+button:hover
+.btn.active{
+outline: 0px !important;
+box-shadow: none !important;
+}
+
+
+.title-h1{
+  font:normal bold 39px/ 40px var(--roboto);
 }
