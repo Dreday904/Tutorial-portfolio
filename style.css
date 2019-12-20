@@ -80,7 +80,7 @@ padding: 1rem 12rem;
 }
 
 .title-text{
-  font:normal bold 50px/72px var(roboto);
+  font:normal bold 50px/72px var(-roboto);
 }
 
 /*End Banner Area */
@@ -184,3 +184,64 @@ justify-content: center;
 
 
 /*End Brand Area */
+
+/*Services Area */
+
+.site-main .services-area{
+  padding: 8rem 2rem;
+}
+
+.site-main .services-area .services-title{
+  padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+  font-size: 35px;
+}
+
+.site-main > .services-area .services{
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 1rem 1rem;
+  transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+
+/*End Services Area */
+
+/* Project Area */
+
+.site-main .project-area{
+  padding: 4rem 0;
+}
+
+
+.site-main .project-area .button-group button{
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+
+
+.site-main .project-area .button-group button + button{
+padding-left: 3rem;
+}
+
+
+.site-main .project-area .grid .our-project > .title h4{
+  font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+  filter:brightness(1.1);filter:drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End Project Area */
